@@ -1,12 +1,12 @@
 n=int(input())
-sum=0
-product=1
+s=0
+s1=1
 while(n>0):
-    d=n%10
-    sum=sum+d
-    product=product*d
+    n1=n%10
+    s=s+n1
+    s1=s1*n1
     n=n//10
-if(sum==product):
+if(s==s1):
     print("Spy Number")
 else:
     print("Not Spy Number")
